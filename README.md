@@ -1,8 +1,10 @@
-[![docker](https://img.shields.io/badge/docker-kaelz%tiller-brightgreen.svg)](https://hub.docker.com/r/kaelz/tiller/)
+[![docker](https://img.shields.io/badge/docker-kaelz%2Ftiller-brightgreen.svg)](https://hub.docker.com/r/kaelz/tiller/)
 
 # kaelz/tiller
 
-Rewrap the gcr.io/kubernetes-helm/tiller to cross the WALL.
+Rewrap the `gcr.io/kubernetes-helm/tiller` to cross the WALL.
+
+For some reasons, image `gcr.io/kubernetes-helm/tiller` could not be pulled somewhere in the world.
 
 ## Usage
 
