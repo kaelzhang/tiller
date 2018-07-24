@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "tiller",
+  "version": "2.9.1",
+  "scripts": {
+    "build": "bash build.sh",
+    "publish": "docker push kaelz/tiller"
+  }
+}
