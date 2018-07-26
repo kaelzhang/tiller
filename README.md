@@ -11,7 +11,7 @@ For some reasons, image `gcr.io/kubernetes-helm/tiller` could not be pulled some
 ```sh
 helm init \
   --tiller-image kaelz/tiller:2.9.1 \
-  --stable-repo-url https://charts.ostai.ai/stable
+  --stable-repo-url https://charts.ostai.ai
 ```
 
 ## Trouble Shooting
