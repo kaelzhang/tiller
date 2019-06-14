@@ -10,7 +10,7 @@ For some reasons, image `gcr.io/kubernetes-helm/tiller` could not be pulled some
 
 ```sh
 helm init \
-  --tiller-image kaelz/tiller:2.9.1 \
+  --tiller-image kaelz/tiller:2.14.1 \
   --stable-repo-url https://charts.ost.ai
 ```
 
@@ -41,7 +41,7 @@ tiller-deploy-2838256982-6w0kv     0/1       ImagePullBackOff   0          18h
 
 ```sh
 helm init \
-  --tiller-image kaelz/tiller:2.9.1 \
+  --tiller-image kaelz/tiller:2.14.1 \
   --upgrade
 ```
 
